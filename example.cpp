@@ -3,13 +3,16 @@ using namespace std;
 
 int main() 
 {
+	//Creating variables in the main
 	int room_length = 5;
 	int room_height = 10;
 	float room_radius = 10.0;
 	bool keep_running = true;
-	char question = 'y'
+	
+	//To be or not to be that is the "real" question
+	char question;
 
-	/*
+	/*		---Multiline comment---
 		cout << "Our first number is " << a << "\n";
 		cout << "Our secpmd number is " << b << "\n";
 		// Finding the area of our room by mutiplying Length times width
@@ -37,7 +40,8 @@ int main()
 		//Single line comment
 		cout << "Run again (y/n): "; //Inline comment
 		cin >> question;
-		if (question != 'y') 
+		//"Kill" the loop if anything other than y/Y is typed
+		if (question != 'y' && question != 'Y') 
 		{
 			keep_running = false;
 		}
