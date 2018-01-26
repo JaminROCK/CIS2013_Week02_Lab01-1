@@ -5,17 +5,16 @@ int main()
 {
 	int room_length = 5;
 	int room_height = 10;
-	float romm_radius = 10.0;
+	float room_radius = 10.0;
 	bool keep_running = true;
 	char question = 'y'
 
-
 	/*
-	cout << "Our first number is " << a << "\n";
-	cout << "Our secpmd number is " << b << "\n";
-	// Finding the area of our room by mutiplying Length times width
-	cout << "if you mutiplying them you will get " << room_length * room_height << "\n";
-	cout << "Unless your rooms a circle " << (room_length * room_height)*3.41 << "\n";
+		cout << "Our first number is " << a << "\n";
+		cout << "Our secpmd number is " << b << "\n";
+		// Finding the area of our room by mutiplying Length times width
+		cout << "if you mutiplying them you will get " << room_length * room_height << "\n";
+		cout << "Unless your rooms a circle " << (room_length * room_height)*3.41 << "\n";
 	*/
 
 	while (keep_running)
@@ -35,17 +34,14 @@ int main()
 			cout << "width and width greater than Length" << endl;
 			
 		}
-
-		cout << "Run agian (y/n): ";
+		//Single line comment
+		cout << "Run agian (y/n): "; //Inline comment
 		cin >> question;
 		if (question != 'y') 
 		{
 			keep_running = false;
 		}
 	}
-
-	
-
 
 	return 0;
 }
