@@ -9,13 +9,12 @@ int main()
 	bool keep_running = true;
 	char question = 'y'
 
-
 	/*
-	cout << "Our first number is " << a << "\n";
-	cout << "Our secpmd number is " << b << "\n";
-	// Finding the area of our room by mutiplying Length times width
-	cout << "if you mutiplying them you will get " << room_length * room_height << "\n";
-	cout << "Unless your rooms a circle " << (room_length * room_height)*3.41 << "\n";
+		cout << "Our first number is " << a << "\n";
+		cout << "Our secpmd number is " << b << "\n";
+		// Finding the area of our room by mutiplying Length times width
+		cout << "if you mutiplying them you will get " << room_length * room_height << "\n";
+		cout << "Unless your rooms a circle " << (room_length * room_height)*3.41 << "\n";
 	*/
 
 	while (keep_running)
@@ -36,16 +35,12 @@ int main()
 			
 		}
 
-		cout << "Run agian (y/n): ";
+		cout << "Run again (y/n): ";
 		cin >> question;
 		if (question != 'y') 
 		{
 			keep_running = false;
 		}
 	}
-
-	
-
-
 	return 0;
 }
