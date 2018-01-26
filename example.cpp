@@ -35,7 +35,7 @@ int main()
 			
 		}
 		//Single line comment
-		cout << "Run agian (y/n): "; //Inline comment
+		cout << "Run again (y/n): "; //Inline comment
 		cin >> question;
 		if (question != 'y') 
 		{
